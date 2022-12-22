@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpita's Fitness Club</title>
+    <link href="@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');" rel="stylesheet">
+    <style>
+        .left{
+            display:inline-block;
+            /*border:2px solid red;*/
+            position:absolute;
+            top:25px;
+            left:20px;    
+        }
+        body{
+            margin:0px;
+            padding:0px;
+            background-image:url('img/bod.jpg');            
+            color:white;
+            background-repeat:no-repeat;
+            background-size:cover;           
+            font-family: 'Otomanopee One', sans-serif;
+            height:80vh;
+        }           
+        .mid{
+            display:block;
+            width:36%;
+            margin:20px auto;
+            /*border:2px solid green;*/
+        }
+        .right{
+            position:absolute;
+            right:20px;
+            top:20px;
+            /*border:2px solid red;*/
+            display:inline;
+        }
+        .btn{
+            border-radius:10px;
+            padding:12px 20px;
+            background-color:black;
+            border:1px solid white;
+            color:white;
+            font-family: 'Otomanopee One', sans-serif;
+            font-size:14px;
+            margin:8px;
+        }
+        .btn:hover{
+            background-color:rgb(73, 28, 28);
+            color:white;
+        }
+        .navbar{
+             display:inline-block;
+        }
+        .navbar li{
+            display:inline-block;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color:white;
+            padding:15px;
+        }
+        .left img{
+            width:83px;
+            height:53px;
+            filter:invert(100%);
+        }
+        .container{
+            margin:215px 80px;
+            border:2px solid rgb(224, 224, 198);
+            padding:35px;
+            width:30%;
+            border-radius:28px;
+        }
+        .container h1{
+            text-align:center;
+            font-size:29px;
+        }
+        .form-group input{
+            border-radius:10px;
+            text-align:center;
+            display:block;
+            width:260px;
+            margin: 6px auto;
+            padding:4px;
+            font-family: 'Otomanopee One', sans-serif;
+        }
+        .container button{
+            display:block;
+            margin:auto;
+            width:266px;
+            font-family: 'Otomanopee One', sans-serif;
+        }
+        .left div{
+            display:block;
+            margin:auto;
+            line-height: 13px;
+        }
+        .navbar li a:hover{
+            color:white;
+            background-color:rgb(58, 12, 12);
+        }
+        .navbar li a:active{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!--left-->
+        <div class="left">
+            <img src="img/gym.jpg" alt="error!">
+            <div>Arpita's Fitness Club</div>        
+        </div>
+        <!--mid-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Call Us Now
+            </button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>
+                Join the Best Gym ever!</h1>
+            <form action="noaction.php">
+            <div class="form-group">
+            <input type="text" placeholder="enter your name"></div>
+            <div class="form-group">
+            <input type="text" placeholder="enter your age"></div>
+            <div class="form-group">
+            <input type="text" placeholder="enter your email"></div>
+            <div class="form-group">
+            <input type="text" placeholder="enter you cellno."></div>
+            <div>
+                <button class="btn">submit</button>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
